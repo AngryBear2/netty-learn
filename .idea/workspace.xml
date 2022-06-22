@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="33408fc4-099f-4863-b5c3-0abae8cf30e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/saveactions_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/lesson1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/src/main/java/byteBuf/ByteBufTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/src/main/java/demo/FirstClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/src/main/java/demo/FirstServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/src/main/java/demo/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/src/main/java/demo/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/src/main/java/io/IOClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/src/main/java/io/IOServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/src/main/java/netty/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/src/main/java/netty/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/src/main/java/protocal/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/src/main/java/protocal/command/LoginRequestPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/src/main/java/protocal/command/Packet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/src/main/java/protocal/command/PacketCodeC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/src/main/java/serialize/Serializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/src/main/java/serialize/SerializerAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/src/main/java/serialize/impl/JSONSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/byteBuf/ByteBufTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/demo/FirstClientHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/demo/FirstServerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/demo/NettyClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/demo/NettyClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/demo/NettyServer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/demo/NettyServer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/demo/NettyServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/io/IOClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/io/IOServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/netty/NettyClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/netty/NettyClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/netty/NettyServer$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/netty/NettyServer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/netty/NettyServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/protocal/command/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/protocal/command/LoginRequestPacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/protocal/command/Packet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/protocal/command/PacketCodeC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/serialize/Serializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/serialize/SerializerAlgorithm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson1/target/classes/serialize/impl/JSONSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/lesson2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/src/main/java/attribute/Attributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/src/main/java/client/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/src/main/java/client/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/src/main/java/protocal/Packet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/src/main/java/protocal/PacketCodeC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/src/main/java/protocal/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/src/main/java/protocal/request/LoginRequestPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/src/main/java/protocal/request/MessageRequestPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/src/main/java/protocal/response/LoginResponsePacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/src/main/java/protocal/response/MessageResponsePacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/src/main/java/serialize/Serializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/src/main/java/serialize/SerializerAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/src/main/java/serialize/impl/JSONSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/src/main/java/server/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/src/main/java/server/ServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/src/main/java/util/LoginUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/target/classes/attribute/Attributes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/target/classes/client/ClientHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/target/classes/client/NettyClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/target/classes/client/NettyClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/target/classes/protocal/Packet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/target/classes/protocal/PacketCodeC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/target/classes/protocal/command/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/target/classes/protocal/request/LoginRequestPacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/target/classes/protocal/request/MessageRequestPacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/target/classes/protocal/response/LoginResponsePacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/target/classes/protocal/response/MessageResponsePacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/target/classes/serialize/Serializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/target/classes/serialize/SerializerAlgorithm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/target/classes/serialize/impl/JSONSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/target/classes/server/NettyServer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/target/classes/server/NettyServer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/target/classes/server/NettyServer$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/target/classes/server/NettyServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/target/classes/server/ServerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2/target/classes/util/LoginUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/lesson3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/attribute/Attributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/client/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/client/NettyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/protocal/Packet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/protocal/PacketCodeC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/protocal/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/protocal/request/LoginRequestPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/protocal/request/MessageRequestPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/protocal/response/LoginResponsePacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/protocal/response/MessageResponsePacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/serialize/Serializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/serialize/SerializerAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/serialize/impl/JSONSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/server/NettyServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/server/ServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/server/handler/inbound/InboundHandlerA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/server/handler/inbound/InboundHandlerB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/server/handler/inbound/InboundHandlerC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/server/handler/outbound/OutboundHandlerA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/server/handler/outbound/OutboundHandlerB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/server/handler/outbound/OutboundHandlerC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/src/main/java/util/LoginUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/META-INF/lesson3.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/attribute/Attributes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/client/ClientHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/client/NettyClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/client/NettyClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/protocal/Packet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/protocal/PacketCodeC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/protocal/command/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/protocal/request/LoginRequestPacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/protocal/request/MessageRequestPacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/protocal/response/LoginResponsePacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/protocal/response/MessageResponsePacket.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/serialize/Serializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/serialize/SerializerAlgorithm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/serialize/impl/JSONSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/server/NettyServer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/server/NettyServer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/server/NettyServer$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/server/NettyServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/server/ServerHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/server/handler/inbound/InboundHandlerA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/server/handler/inbound/InboundHandlerB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/server/handler/inbound/InboundHandlerC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/server/handler/outbound/OutboundHandlerA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/server/handler/outbound/OutboundHandlerB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/server/handler/outbound/OutboundHandlerC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson3/target/classes/util/LoginUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nettylearn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/lesson1/target/" />
+    <ignored path="$PROJECT_DIR$/lesson2/target/" />
+    <ignored path="$PROJECT_DIR$/lesson3/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/server/handler/outbound/OutboundHandlerA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/server/ServerHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.59.Final/netty-all-4.1.59.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15808">
+              <caret line="939" selection-start-line="939" selection-end-line="939" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/server/NettyServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="608">
+              <caret line="49" column="16" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.59.Final/netty-all-4.1.59.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19361">
+              <caret line="1117" selection-start-line="1117" selection-end-line="1117" />
+              <folding>
+                <element signature="e#47740#47741#0" expanded="true" />
+                <element signature="e#47788#47789#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/jdk1.8/jdk1.8.0_201/jre/lib/rt.jar!/sun/nio/ch/WindowsSelectorImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7961">
+              <caret line="446" column="27" selection-start-line="446" selection-start-column="27" selection-end-line="446" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.59.Final/netty-all-4.1.59.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1805">
+              <caret line="117" selection-start-line="117" selection-end-line="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/server/handler/inbound/InboundHandlerC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/server/handler/inbound/InboundHandlerB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>release</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="2b8427c5-b9b9-4bb0-a451-c1588e1126dd" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lesson1/src/main/java/io/IOServer.java" />
+        <option value="$PROJECT_DIR$/lesson1/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson1/src/main/java/netty/NettyClient.java" />
+        <option value="$PROJECT_DIR$/lesson1/src/main/java/netty/NettyServer.java" />
+        <option value="$PROJECT_DIR$/lesson1/src/main/java/demo/NettyClient.java" />
+        <option value="$PROJECT_DIR$/lesson1/src/main/java/demo/NettyServer.java" />
+        <option value="$PROJECT_DIR$/lesson1/src/main/java/demo/FirstServerHandler.java" />
+        <option value="$PROJECT_DIR$/lesson1/src/main/java/demo/FirstClientHandler.java" />
+        <option value="$PROJECT_DIR$/lesson1/src/main/java/byteBuf/ByteBufTest.java" />
+        <option value="$PROJECT_DIR$/lesson1/src/main/java/agreement/Packet.java" />
+        <option value="$PROJECT_DIR$/lesson1/src/main/java/agreement/Command.java" />
+        <option value="$PROJECT_DIR$/lesson1/src/main/java/agreement/SerializerAlgorithm.java" />
+        <option value="$PROJECT_DIR$/lesson1/src/main/java/agreement/JSONSerializer.java" />
+        <option value="$PROJECT_DIR$/lesson1/src/main/java/agreement/jsonSerializer/SerializerAlgorithm.java" />
+        <option value="$PROJECT_DIR$/lesson1/src/main/java/agreement/LoginRequestPacket.java" />
+        <option value="$PROJECT_DIR$/lesson1/src/main/java/agreement/loginRequestPacket/LoginRequestPacket.java" />
+        <option value="$PROJECT_DIR$/lesson1/src/main/java/agreement/jsonSerializer/JSONSerializer.java" />
+        <option value="$PROJECT_DIR$/lesson1/src/main/java/agreement/Serializer.java" />
+        <option value="$PROJECT_DIR$/lesson1/src/main/java/agreement/serialize/impl/JSONSerializer.java" />
+        <option value="$PROJECT_DIR$/lesson1/src/main/java/agreement/command/PacketCodeC.java" />
+        <option value="$PROJECT_DIR$/lesson2/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson2/src/main/java/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/lesson2/src/main/java/agreement/command/LoginRequestPacket.java" />
+        <option value="$PROJECT_DIR$/lesson2/src/main/java/agreement/command/PacketCodeC.java" />
+        <option value="$PROJECT_DIR$/lesson2/src/main/java/agreement/command/Command.java" />
+        <option value="$PROJECT_DIR$/lesson2/src/main/java/protocal/request/LoginRequestPacket.java" />
+        <option value="$PROJECT_DIR$/lesson2/src/main/java/serialize/impl/JSONSerializer.java" />
+        <option value="$PROJECT_DIR$/lesson2/src/main/java/serialize/Serializer.java" />
+        <option value="$PROJECT_DIR$/lesson2/src/main/java/protocal/response/LoginResponsePacket.java" />
+        <option value="$PROJECT_DIR$/lesson2/src/main/java/server/NettyServer.java" />
+        <option value="$PROJECT_DIR$/lesson2/src/main/java/protocal/request/MessageRequestPacket.java" />
+        <option value="$PROJECT_DIR$/lesson2/src/main/java/protocal/command/Command.java" />
+        <option value="$PROJECT_DIR$/lesson2/src/main/java/protocal/response/MessageResponsePacket.java" />
+        <option value="$PROJECT_DIR$/lesson2/src/main/java/attribute/Attributes.java" />
+        <option value="$PROJECT_DIR$/lesson2/src/main/java/util/LoginUtil.java" />
+        <option value="$PROJECT_DIR$/lesson2/src/main/java/client/NettyClient.java" />
+        <option value="$PROJECT_DIR$/lesson2/src/main/java/protocal/PacketCodeC.java" />
+        <option value="$PROJECT_DIR$/lesson2/src/main/java/client/ClientHandler.java" />
+        <option value="$PROJECT_DIR$/lesson2/src/main/java/server/ServerHandler.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson3/pom.xml" />
+        <option value="$PROJECT_DIR$/lesson3/src/main/java/server/handler/inbound/InboundHandlerB.java" />
+        <option value="$PROJECT_DIR$/lesson3/src/main/java/server/ServerHandler.java" />
+        <option value="$PROJECT_DIR$/lesson3/src/main/java/server/handler/inbound/InboundHandlerA.java" />
+        <option value="$PROJECT_DIR$/lesson3/src/main/java/server/handler/outbound/OutboundHandler.java" />
+        <option value="$PROJECT_DIR$/lesson3/src/main/java/server/handler/outbound/OutboundHandlerA.java" />
+        <option value="$PROJECT_DIR$/lesson3/src/main/java/server/handler/outbound/OutboundHandlerB.java" />
+        <option value="$PROJECT_DIR$/lesson3/src/main/java/server/handler/outbound/OutboundHandlerC.java" />
+        <option value="$PROJECT_DIR$/lesson3/src/main/java/server/NettyServer.java" />
+        <option value="$PROJECT_DIR$/lesson3/src/main/java/server/handler/inbound/InboundHandlerC.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\repository" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lesson1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lesson2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lesson3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="netty-learn" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="265" />
+    <option name="width" value="980" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="nettylearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettylearn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettylearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettylearn" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettylearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettylearn" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettylearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettylearn" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettylearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettylearn" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettylearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettylearn" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettylearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettylearn" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nettylearn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettylearn" type="462c0819:PsiDirectoryNode" />
+              <item name="lesson3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
+              <item name="inbound" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore&#10;F:/study/nettylearn/lesson2/src/main/java/protocal/request/LoginRequestPacket.java&#10;F:/study/nettylearn/lesson2/src/main/java/protocal/request/MessageRequestPacket.java" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="server.handler.outbound" />
+      <recent name="server.handler.inbound" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\study\nettylearn\lesson3\src\main\java" />
+      <recent name="F:\study\nettylearn\lesson2\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.NettyServer">
+    <configuration name="NettyClient (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.NettyClient" />
+      <module name="lesson2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.NettyClient" />
+      <module name="lesson3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="demo.NettyServer" />
+      <module name="lesson1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.NettyServer" />
+      <module name="lesson2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.NettyServer" />
+      <module name="lesson3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NettyClient" />
+        <item itemvalue="Application.NettyServer" />
+        <item itemvalue="Application.NettyClient (2)" />
+        <item itemvalue="Application.NettyServer (2)" />
+        <item itemvalue="Application.NettyServer (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33408fc4-099f-4863-b5c3-0abae8cf30e1" name="Default Changelist" comment="" />
+      <created>1655693813695</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655693813695</updated>
+      <workItem from="1655693815337" duration="20538000" />
+      <workItem from="1655786065697" duration="8477000" />
+      <workItem from="1655795285927" duration="16962000" />
+      <workItem from="1655866434184" duration="3722000" />
+      <workItem from="1655886757889" duration="869000" />
+      <workItem from="1655887668858" duration="751000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="51319000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="830" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.83502173" visible="true" weight="0.2680965" />
+      <window_info id="Structure" order="1" sideWeight="0.1649783" side_tool="true" weight="0.52216065" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33476394" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26609442" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Sequence Diagram" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3295129" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50067025" side_tool="true" weight="0.3390558" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49932975" weight="0.32761088" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.59.Final/netty-all-4.1.59.Final.jar!/io/netty/util/concurrent/SingleThreadEventExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="344" selection-start-line="344" selection-end-line="344" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.59.Final/netty-all-4.1.59.Final.jar!/io/netty/channel/nio/NioEventLoop.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="326" selection-start-line="326" selection-end-line="326" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.59.Final/netty-all-4.1.59.Final.jar!/io/netty/channel/nio/AbstractNioByteChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="260" selection-start-line="260" selection-end-line="260" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.59.Final/netty-all-4.1.59.Final.jar!/io/netty/channel/ChannelInitializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.59.Final/netty-all-4.1.59.Final.jar!/io/netty/channel/DefaultChannelPipeline.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="1120" selection-start-line="1120" selection-end-line="1120" />
+          <folding>
+            <element signature="e#39277#39278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.59.Final/netty-all-4.1.59.Final.jar!/io/netty/channel/AbstractChannelHandlerContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="301" column="35" lean-forward="true" selection-start-line="301" selection-start-column="35" selection-end-line="301" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson1/src/main/java/demo/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="26" column="11" selection-start-line="25" selection-end-line="31" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1513#1716#0" expanded="true" />
+            <element signature="e#1715#1716#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/src/main/java/util/LoginUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.59.Final/netty-all-4.1.59.Final.jar!/io/netty/channel/ChannelInboundHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="74" lean-forward="true" selection-start-line="9" selection-start-column="74" selection-end-line="9" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.59.Final/netty-all-4.1.59.Final-sources.jar!/io/netty/util/internal/TypeParameterMatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="149" column="28" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.59.Final/netty-all-4.1.59.Final-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="88" column="26" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/io.netty.channel.ChannelInboundHandlerAdapter">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>io.netty.channel.ChannelInboundHandlerAdapter</OriginalElement>
+          <nodes>
+            <node x="" y="">io.netty.channel.ChannelHandlerAdapter</node>
+            <node x="" y="">io.netty.channel.SimpleChannelInboundHandler</node>
+            <node x="" y="">io.netty.channel.ChannelInboundHandlerAdapter</node>
+            <node x="" y="">io.netty.channel.ChannelInboundHandler</node>
+            <node x="" y="">io.netty.channel.ChannelHandler</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="199.0" y="95.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/src/main/java/protocal/request/LoginRequestPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/src/main/java/protocal/request/MessageRequestPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/src/main/java/attribute/Attributes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/src/main/java/client/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/src/main/java/client/NettyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="79" column="71" selection-start-line="79" selection-start-column="71" selection-end-line="79" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/src/main/java/server/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/src/main/java/protocal/PacketCodeC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="30" column="77" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/src/main/java/protocal/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/src/main/java/protocal/response/MessageResponsePacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/src/main/java/server/ServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2115#2116#0" expanded="true" />
+            <element signature="e#2136#2137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="10" selection-start-line="10" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/protocal/PacketCodeC.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/util/LoginUtil.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/protocal/request/MessageRequestPacket.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/serialize/impl/JSONSerializer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/attribute/Attributes.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/protocal/request/LoginRequestPacket.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/serialize/Serializer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/protocal/response/MessageResponsePacket.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/client/ClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/client/NettyClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.59.Final/netty-all-4.1.59.Final-sources.jar!/io/netty/channel/nio/AbstractNioByteChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="188" selection-start-line="188" selection-end-line="188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.59.Final/netty-all-4.1.59.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="456" selection-start-line="456" selection-end-line="456" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.59.Final/netty-all-4.1.59.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/server/handler/outbound/OutboundHandlerC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/server/handler/outbound/OutboundHandlerB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/server/handler/inbound/InboundHandlerA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/server/handler/outbound/OutboundHandlerA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/server/ServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.59.Final/netty-all-4.1.59.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15808">
+          <caret line="939" selection-start-line="939" selection-end-line="939" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/server/NettyServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.59.Final/netty-all-4.1.59.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19361">
+          <caret line="1117" selection-start-line="1117" selection-end-line="1117" />
+          <folding>
+            <element signature="e#47740#47741#0" expanded="true" />
+            <element signature="e#47788#47789#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8/jdk1.8.0_201/jre/lib/rt.jar!/sun/nio/ch/WindowsSelectorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7961">
+          <caret line="446" column="27" selection-start-line="446" selection-start-column="27" selection-end-line="446" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.59.Final/netty-all-4.1.59.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1805">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/server/handler/inbound/InboundHandlerB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lesson3/src/main/java/server/handler/inbound/InboundHandlerC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>lesson3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:fastjson:1.2.79</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
