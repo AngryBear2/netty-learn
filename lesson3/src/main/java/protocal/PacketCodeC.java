@@ -1,7 +1,6 @@
 package protocal;
 
 import io.netty.buffer.ByteBuf;
-import io.netty.buffer.ByteBufAllocator;
 import protocal.command.Command;
 import protocal.request.LoginRequestPacket;
 import protocal.request.MessageRequestPacket;
@@ -41,9 +40,7 @@ public class PacketCodeC {
    * @param packet
    * @return
    */
-  public ByteBuf encode(ByteBufAllocator byteBufAllocator, Packet packet) {
-    // 1.创建ByteBuf对象
-    ByteBuf byteBuf = byteBufAllocator.ioBuffer();
+  public ByteBuf encode(ByteBuf byteBuf, Packet packet) {
     // 2.序列化java对象
     byte[] bytes = Serializer.DEFALUT.serializer(packet);
 

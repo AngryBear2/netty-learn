@@ -1,5 +1,7 @@
 package server;
 
+import codec.PacketDecoder;
+import codec.PacketEncoder;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
@@ -10,12 +12,8 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.util.concurrent.Future;
 import io.netty.util.concurrent.GenericFutureListener;
-import server.handler.inbound.InboundHandlerA;
-import server.handler.inbound.InboundHandlerB;
-import server.handler.inbound.InboundHandlerC;
-import server.handler.outbound.OutboundHandlerA;
-import server.handler.outbound.OutboundHandlerB;
-import server.handler.outbound.OutboundHandlerC;
+import server.handler.LoginRequestHandler;
+import server.handler.MessageRequestHandler;
 
 import java.util.Date;
 
@@ -47,16 +45,10 @@ public class NettyServer {
             new ChannelInitializer<NioSocketChannel>() {
               @Override
               protected void initChannel(NioSocketChannel nioSocketChannel) throws Exception {
-                //                nioSocketChannel.pipeline().addLast(new ServerHandler());
-                //                 处理读数据的逻辑链
-                nioSocketChannel.pipeline().addLast(new InboundHandlerA());
-                nioSocketChannel.pipeline().addLast(new InboundHandlerB());
-                nioSocketChannel.pipeline().addLast(new InboundHandlerC());
-
-                // 处理写数据的逻辑链
-                nioSocketChannel.pipeline().addLast(new OutboundHandlerA());
-                nioSocketChannel.pipeline().addLast(new OutboundHandlerB());
-                nioSocketChannel.pipeline().addLast(new OutboundHandlerC());
+                nioSocketChannel.pipeline().addLast(new PacketDecoder());
+                nioSocketChannel.pipeline().addLast(new LoginRequestHandler());
+                nioSocketChannel.pipeline().addLast(new MessageRequestHandler());
+                nioSocketChannel.pipeline().addLast(new PacketEncoder());
               }
             });
     bind(serverBootstrap, PORT);
